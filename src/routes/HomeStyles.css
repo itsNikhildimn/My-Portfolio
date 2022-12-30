@@ -1,0 +1,15 @@
+.head{
+    margin-top: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.head p{
+    color: black;
+margin: 1rem 4rem;
+}
+.head hr{
+    width: 21%;
+  
+}

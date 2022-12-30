@@ -1,0 +1,72 @@
+.mask{
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.mask::after {
+    content: "";
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 15%, rgba(167,164,164,1) 100%);
+opacity: 0.5;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+}
+.hero .content{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left: 50% ;
+    text-align: center;
+}
+.hero .content h1{
+     font-size: 4rem;
+     padding: 0.6rem 0 1.5rem ;
+}
+.hero .content p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.hero .content .btn{
+    border: none;
+    border-radius: 5rem;
+margin: 1rem .5rem;
+}
+.hero .content .btn:hover{
+border: 1px solid #1a2238;
+color:#1a2238;
+}
+.hero .content .btn-light{
+    border-radius: 5rem;
+    margin: 1rem .5rem;
+    text-transform: uppercase;
+}
+.hero .content .btn-light:hover{
+    color: white;
+    background-color: #1a2238;
+}
+
+@media screen and (max-width:640px) {
+    .hero .content h1{
+        font-size: 3rem;
+
+   }
+   .hero .content p{
+       font-size: 1.4rem;
+
+   }
+}
