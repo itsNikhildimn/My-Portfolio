@@ -1,6 +1,7 @@
 import React from "react";
 import {
   FaFacebook,
+  FaGithub,
   FaHome,
   FaInstagram,
   FaLinkedin,
@@ -8,6 +9,7 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -49,30 +51,35 @@ const Footer = () => {
             new projects and design challenges
           </p>
           <div className="social">
-            <FaFacebook
-             style={{ marginRight: "2rem" ,color :"#3b5998" }}
+           <a href='https://github.com/itsNikhildimn'> <FaGithub
+             style={{ marginRight: "2rem" ,color :"#ff6a3d" }}
             id="faicon"
               size={40}
             
-            />
-            <FaInstagram
+            /></a>
+           
+            <a href="https://www.instagram.com/nikhil_dhiman01/"><FaInstagram  
            style={{ marginRight: "2rem" ,color :"#ef0074" }}
              id="faicon"
               size={40}
-            
-            />
+            /> </a>
+
+
+            <a href="https://twitter.com/NikhilD54153797">
             <FaTwitter
              id="faicon"
              style={{ marginRight: "2rem" ,color :"#58c3eb" }}
               size={40}
-        
-            />
+            /></a>
+
+            <a href="https://www.linkedin.com/in/nikhil-dhiman-358167229/">
             <FaLinkedin
              id="faicon"
              style={{ marginRight: "2rem" ,color :" #007dbe" }}
               size={40}
- 
-            />
+            /></a>
+
+
           </div>
         </div>
       </div>

@@ -6,12 +6,13 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
+    gap: 10rem;
 }
 .about .left{
-    text-align: center;
+    text-align: left;
     /* margin: auto; */
     padding: 1rem;
-    max-width: 350px;
+    max-width: 750px;
 }
 .about .left h1{
     color: #1a2238;
@@ -23,28 +24,31 @@
 }
 .about .right{
     max-width: 700px;
-}
-.right .img-container{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    position: relative;
-    align-items: center;
-    text-align: center;
-}
-.right img{
-max-width:90% ;
-border: 1px solid #1a2238 ;
-border-radius: 5px;
+
 }
 
-.right .top{
-   grid-column: 1 /span 8; 
-   grid-row: 1;
-   padding-top: 20%;
-   z-index: 6;
+
+
+.right .Home-img{
+    background:url(../assets/aboutportt.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    box-shadow: inset 0 0 0 9px rgb(227,27,109 , 0.3);
+    order: 1;
+    justify-self: center;
+    animation: profileport_animate 8s ease-in-out infinite 1s;
 }
-.right .bottom{
-   grid-column: 4 / -1; 
-   grid-row: 1;
-   z-index: 5;
-} 
+@keyframes profileport_animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+    }
+    5%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60% ;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+    }
+}

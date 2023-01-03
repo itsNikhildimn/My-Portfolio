@@ -21,8 +21,8 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: #ff6a3d;
-  border: 1px solid #ff6a3d;
+  background:#e31b6d;
+  border: 1px solid #e31b6d;
   color: white;
   border-radius: 2rem;
   font-weight: 600;
@@ -39,8 +39,8 @@ ul{
  }
  .btn:hover {
   background: rgba(255,255,255,0.2);
-  color:#ff6a3d;
-  border: 1px solid #ff6a3d;
+  color:#e31b6d;
+  border: 1px solid #e31b6d;
   transition: 0.3s;
  }
  .work-container{

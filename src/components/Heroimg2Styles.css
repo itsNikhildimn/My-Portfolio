@@ -8,7 +8,7 @@
 }
 .hero-img::before{
     content: "";
-    background:url("/src/assets/hero_1.jpg.webp");
+    background:url("/src/assets/download.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -30,12 +30,12 @@
 }
 .hero-img h1{
     font-size: 4rem;
-    color: #1a2238;
+    color: #ffffff;
 }
 .hero-img p{
     font-size: 2rem;
 text-align: center;
-color: #1a2238;
+color: #ffffff;
 font-weight: 200;
 }
 .hero-img .icon1{

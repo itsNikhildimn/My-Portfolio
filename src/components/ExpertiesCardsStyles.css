@@ -1,0 +1,75 @@
+.ExpSkills{
+    display: flex;
+    justify-content: center;
+ align-items: flex-start;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.ExpCards{
+   align-items: center;
+    background-color:#fafafa;
+    display: flex;
+    gap: 3rem;
+}
+
+.ExpCards .colcard{
+    height:10rem ;
+    width:10rem ;
+    border-radius: .5rem ;
+gap: 1rem;
+border: 1px solid #e31b6d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.colcard:hover{
+    background-color: #dedfe0;
+}
+.ExpCards .colcard h1{
+    font-size: 1.5rem;
+    color: #1a2238;
+}
+.ExpCards .colcard span{
+    font-size: small;
+    color: #1a2238;
+}
+.Left{
+    max-width: 700px;
+    margin-top: -5rem;
+}
+.Left .img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.Left img{
+max-width:90% ;
+border: 1px solid #1a2238 ;
+border-radius: 5px;
+}
+.ExpSkills{
+    display: flex;
+    margin-top: 10rem;
+}
+.Left .top{
+   grid-column: 1 /span 8; 
+   grid-row: 1;
+   padding-top: 20%;
+   z-index: 6;
+}
+.Left .bottom{
+   grid-column: 4 / -1; 
+   grid-row: 1;
+   z-index: 5;
+} 
+@media screen and (max-width:640px){
+    .ExpCards{
+        flex-direction: column;
+    }
+    .ExpSkills img{
+        display: none;
+    }
+}

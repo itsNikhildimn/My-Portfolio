@@ -1,5 +1,5 @@
 label{
-   color:#ff6a3d; 
+   color:#e31b6d; 
 margin-bottom: .5rem;
 }
 form{
@@ -30,7 +30,7 @@ form{
      margin-bottom: 1rem;
 }
 form button:hover{
-    background-color:#ff6a3d;
+    background-color:#e31b6d;
 }
 form input, form textarea{
     width: 30rem;
