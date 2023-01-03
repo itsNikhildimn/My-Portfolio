@@ -31,7 +31,7 @@ const Footer = () => {
                 size={20}
                 style={{  marginRight: "2rem" ,color :"#ff6a3d"}}
               />
-              123-345-567
+              +91 82190-90574
             </h4>
           </div>
           <div className="email" >
@@ -40,7 +40,7 @@ const Footer = () => {
               style={{ marginRight: "2rem" ,color :"white" }}
             />
             <div>
-              <p>Nikhildhiman@gmail.com</p>
+              <p>Dhimannihkil905@gmail.com</p>
             </div>
           </div>
         </div>
