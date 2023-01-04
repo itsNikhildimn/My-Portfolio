@@ -2,7 +2,7 @@ import "./NavbarStyles.css"
 
 
 import React from 'react'
-import { Link ,NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import {FaBars , FaTimes} from "react-icons/fa";
 import { useState } from "react"
 
