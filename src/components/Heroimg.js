@@ -8,7 +8,7 @@ const Heroimg = () => {
    
     <div className="content">
       <div className="contentleft">
-        <p>HI, I'M A FREELANCER. </p>
+        <p>HI, I'M NIKHIL DHIMAN </p>
         <h1>Full Stack Developer.</h1>
         <div>
           <Link to="project" className="btn">Projects</Link>

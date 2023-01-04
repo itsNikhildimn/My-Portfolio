@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaFacebook,
   FaGithub,
   FaHome,
   FaInstagram,
@@ -9,7 +8,6 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import "./FooterStyles.css";
 
 const Footer = () => {
@@ -20,7 +18,7 @@ const Footer = () => {
           <div className="location"  >
             <FaHome  id="faicon" size={20} style={{  marginRight: "2rem" ,color :"white"}} />
             <div>
-              <p>123 Housing Socity</p>
+              <p>Mohali 4 Phase, Chandigarh</p>
               <p>India</p>
             </div>
           </div>
@@ -48,7 +46,7 @@ const Footer = () => {
           <h4>About the Company</h4>
           <p>
             This is me Nikhil Dhiman, Full Stack Developer, I enjoy disscussing
-            new projects and design challenges
+            new projects and design challenges.
           </p>
           <div className="social">
            <a href='https://github.com/itsNikhildimn'> <FaGithub

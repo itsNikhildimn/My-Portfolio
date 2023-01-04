@@ -2,7 +2,7 @@ import "./NavbarStyles.css"
 
 
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link ,NavLink } from "react-router-dom";
 import {FaBars , FaTimes} from "react-icons/fa";
 import { useState } from "react"
 
@@ -26,22 +26,22 @@ const Navbar = () => {
  "header"}>
     <div className="header">
         <div className="logo">
-        <Link to = "/">
+        <NavLink to = "/">
             <h1>Nikhil</h1>
-        </Link>
+        </NavLink>
         </div>
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <ul className="nav-menu">
             <li>
-                <Link to ="/"><p>Home</p></Link>
+                <NavLink exact activeClassName = "active" to ="/">Home</NavLink>
             </li>
             <li>
-                <Link to ="/project"><p>Project</p></Link>
+                <NavLink activeClassName = "active" to ="/project">Project</NavLink>
             </li>
             <li>
-                <Link to ="/about"><p>About</p></Link>
+                <NavLink activeClassName = "active" to ="/about">About</NavLink>
             </li>
             <li>
-                <Link to ="/contact"><p>Contact</p></Link>
+                <NavLink activeClassName = "active" to ="/contact">Contact</NavLink>
             </li>
         </ul>
         <div className="hamburger" onClick={handleClick}>

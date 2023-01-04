@@ -9,11 +9,11 @@
    align-items: center;
     background-color:#fafafa;
     display: flex;
-    gap: 3rem;
+    gap: 4rem;
 }
 
 .ExpCards .colcard{
-    height:10rem ;
+    height:12rem ;
     width:10rem ;
     border-radius: .5rem ;
 gap: 1rem;

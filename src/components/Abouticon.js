@@ -1,7 +1,7 @@
 import "./AbouticonStyles.css";
 import React from 'react'
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import {  FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 
 const Abouticon = () => {
   return (

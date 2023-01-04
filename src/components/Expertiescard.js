@@ -20,7 +20,7 @@ const Expertiescard = () => {
                 <div className="colcard">
                     <FaTrophy color="#e31b6d" />
                     <h1>Experience</h1>
-                    <span>2+ Years Working</span>
+                    <span>3+ Years Working</span>
                 </div>
                 <div className="colcard">
                     <FaUsers color="#e31b6d" />

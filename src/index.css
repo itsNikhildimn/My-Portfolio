@@ -47,3 +47,7 @@ ul{
   background:#ffffff;
 
  }
+ .active{
+  font-weight: 600;
+color:#e31b6d ;
+}
