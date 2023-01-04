@@ -30,7 +30,7 @@ const Navbar = () => {
             <h1>Nikhil</h1>
         </NavLink>
         </div>
-        <ul className="nav-menu">
+        <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li>
                 <NavLink exact activeClassName = "active" to ="/">Home</NavLink>
             </li>
